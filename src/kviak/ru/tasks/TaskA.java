@@ -1,10 +1,11 @@
 package kviak.ru.tasks;
 
-import java.util.HashSet;
-import java.util.Scanner;
+import java.util.*;
 
 public class TaskA {
     public static void main(String[] args) {
+
+
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt(); // Максимальное количество первичных баллов для каждого критерия
         int m = scanner.nextInt(); // Количество критериев
